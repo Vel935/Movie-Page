@@ -1,0 +1,40 @@
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14 px 16 px;
+    text-decoration: none;
+}
+
+nav>ul>li a:hover {
+    background-color: #111;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.container {
+    border: 1 px solid red;
+    width: 100 px;
+    height: 300 px;
+}
+
+.element {
+    border: 1 px solid #000;
+    width: 200 px;
+    height: 200 px;
+    margin: 15 px;
+}
